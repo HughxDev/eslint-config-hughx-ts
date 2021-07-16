@@ -1,0 +1,96 @@
+{
+  "name": "eslint-config-hughx-ts",
+  "description": "Provides hughx’s TypeScript conventions as .eslintrc shared configs.",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "author": "Hugh Guiney",
+  "license": "BlueOak-1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HughxDev/eslint-config-hughx-ts.git"
+  },
+  "peerDependencies": {
+    "@types/node": ">= 16.3.2",
+    "@types/react": ">= 17.0.14",
+    "@typescript-eslint/eslint-plugin": ">= 4.28.3",
+    "@typescript-eslint/parser": ">= 4.28.3",
+    "eslint": ">= 7.30.0",
+    "eslint-config-airbnb-typescript": ">= 12.3.1",
+    "eslint-config-hughx": ">= 0.0.7",
+    "eslint-plugin-import": ">= 2.23.4",
+    "eslint-plugin-jsx-a11y": ">= 6.4.1",
+    "eslint-plugin-react": ">= 7.24.0",
+    "eslint-plugin-react-hooks": ">= 4.2.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    },
+    "@types/react": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb-typescript": "latest",
+    "eslint-config-hughx": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "npm-minify": "latest"
+  },
+  "scripts": {
+    "minify": "./node_modules/.bin/npm-minify",
+    "patch": "yarn version --patch && yarn minify",
+    "release": "cd dist/ && npm publish",
+    "patch-release": "yarn patch && yarn release"
+  },
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style guide",
+    "style linter",
+    "typescript",
+    "react",
+    "verify"
+  ]
+}
