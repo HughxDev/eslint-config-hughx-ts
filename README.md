@@ -1,8 +1,8 @@
 <p align="center"><img src="https://raw.githubusercontent.com/HughxDev/eslint-config-hughx-ts/master/eslint-config-hughx-ts.svg?sanitize=true" width="150" alt="logo" /></p>
 
-<h1 align="center">eslint-config-hughx</h1>
+<h1 align="center">eslint-config-hughx-ts</h1>
 
-<p align="center">Provides <a href="https://hughx.dev">hughx</a>’s TypeScript conventions as <code>.eslintrc</code> shared configs. Emphasizes readability and ease of writing.</p>
+<p align="center">Provides <a href="https://hughx.dev/from-github-elint-config-hughx-ts">hughx</a>’s TypeScript conventions as <code>.eslintrc</code> shared configs. Emphasizes readability and ease of writing.</p>
 
 <p align="center"><a href="https://www.npmjs.com/package/eslint-config-hughx-ts"><img src="https://img.shields.io/npm/dm/eslint-config-hughx-ts.svg" alt="Downloads per month (NPM)"></a></p>
 
