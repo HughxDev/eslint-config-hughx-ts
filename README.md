@@ -32,7 +32,9 @@ yarn add -D \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
-  eslint-plugin-import
+  eslint-plugin-import \
+  typedoc \
+  typescript
 ```
 
 ### React projects
@@ -52,7 +54,9 @@ yarn add -D \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
-  eslint-plugin-react-hooks
+  eslint-plugin-react-hooks \
+  typedoc \
+  typescript
 ```
 
 ### Node projects
@@ -69,7 +73,9 @@ yarn add -D \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
-  eslint-plugin-import
+  eslint-plugin-import \
+  typedoc \
+  typescript
 ```
 
 ## Usage
