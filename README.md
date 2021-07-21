@@ -25,6 +25,7 @@ You will have to install `peerDependencies` manually:
 ```zsh
 # npm install -D
 yarn add -D \
+  @hughx/tsconfig \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   eslint \
