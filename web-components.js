@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "hughx-ts",
+    "./index.js", // "hughx-ts",
     "hughx/web-components",
   ],
 };

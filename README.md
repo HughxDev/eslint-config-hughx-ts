@@ -39,10 +39,12 @@ yarn add -D \
 ```zsh
 # npm install -D
 yarn add -D \
+  @hughx/tsconfig \
   @types/react \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   eslint \
+  eslint-config-airbnb-base \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
@@ -54,15 +56,15 @@ yarn add -D \
 
 ### Node projects
 
-Same as above, but you will need to add the following as well:
-
 ```zsh
 # npm install -D
 yarn add -D \
+  @hughx/tsconfig \
   @types/node \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   eslint \
+  eslint-config-airbnb-base \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
@@ -100,10 +102,41 @@ module.exports = {
 };
 ```
 
+Then, create a `tsconfig.json` in your root and extend [`@hughx/tsconfig`](https://github.com/HughxDev/tsconfig):
+
+```json
+{
+  "extends": "@hughx/tsconfig"
+}
+```
+
 ## Environment-specific Configs
 
 You can extend from one of the following to bring in sensible defaults for different use cases:
 
-- `hughx-ts/react`
-- `hughx-ts/node`
-- `hughx-ts/web-components`
+### React
+
+<dl>
+  <dt>.eslintrc</dt>
+  <dd><code>hughx-ts/react</code></dd>
+  <dt>tsconfig.json</dt>
+  <dd><code>@hughx/tsconfig/react.json</code></dd>
+</dl>
+
+### Node
+
+<dl>
+  <dt>.eslintrc</dt>
+  <dd><code>hughx-ts/node</code></dd>
+  <dt>tsconfig.json</dt>
+  <dd><code>@hughx/tsconfig/node.json</code></dd>
+</dl>
+
+### Web Components
+
+<dl>
+  <dt>.eslintrc</dt>
+  <dd><code>hughx-ts/web-components</code></dd>
+  <dt>tsconfig.json</dt>
+  <dd><code>@hughx/tsconfig/web-components.json</code></dd>
+</dl>
