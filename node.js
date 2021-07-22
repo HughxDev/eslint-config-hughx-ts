@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
     "./index.js", // "hughx-ts",
-    "hughx/node",
+    "hughx/base/node",
   ],
 };

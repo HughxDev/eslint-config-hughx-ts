@@ -617,9 +617,9 @@ eslint-config-airbnb@^18.2.0:
     object.entries "^1.1.2"
 
 eslint-config-hughx@latest:
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/eslint-config-hughx/-/eslint-config-hughx-0.0.12.tgz#0fbe5033aff91db70897ddea547b13f39f15fd6c"
-  integrity sha512-vCkTynEnyvsSAt5BB3dad6UmgFtLBDge8DKaIrsEzIB4AbN7MpRMi1W4zTMYrWvj1xa11kzo63MaTHod9m2qWg==
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/eslint-config-hughx/-/eslint-config-hughx-0.0.13.tgz#8956e11df71cc153ddaf372a21a511d05a5d3acf"
+  integrity sha512-X1CFcvfcV09AjnCr+WRNY3H9o/dhosMv3blRfAD30l0tlz6ywR9BZx3GCt19b6hyRTFe2ZxBeSSdNJvsihMUpw==
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -629,7 +629,7 @@ eslint-import-resolver-node@^0.3.4:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@^2.4.0:
+eslint-import-resolver-typescript@latest:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.4.0.tgz#ec1e7063ebe807f0362a7320543aaed6fe1100e1"
   integrity sha512-useJKURidCcldRLCNKWemr1fFQL1SzB3G4a0li6lFGvlc5xGe1hY343bvG07cbpCzPuM/lK19FIJB3XGFSkplA==
