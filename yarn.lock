@@ -54,9 +54,9 @@
     strip-json-comments "^3.1.1"
 
 "@hughx/tsconfig@latest":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@hughx/tsconfig/-/tsconfig-0.0.4.tgz#6aaa2baf7a6b2f396fb8821edede7bbe880dc0cf"
-  integrity sha512-239nyMwNlY0uVffoUPJK9sXflwutZDwmCtZR50CGEPpjqUap7Ifzp04/dWT/l0AGBz+T9LPV9SHuIiH0d1Yp/Q==
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@hughx/tsconfig/-/tsconfig-0.0.6.tgz#2a07d1cf6ffc7be1544c739972b07527d4552a89"
+  integrity sha512-cPzLsLzlHXbx5I2bOmSeZS/CV2vqLcr5LTvFrBHjdQGy9W949SSADxiM+lWg8tkSvN0IzhoYyBpTP3FtRZtCaQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
