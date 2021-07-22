@@ -1,3 +1,5 @@
+const airbnbImportExtensions = require( 'eslint-config-airbnb-base/rules/imports' ).rules['import/extensions'][2];
+
 module.exports = {
   "extends": [
     "airbnb-typescript/base",
@@ -8,6 +10,24 @@ module.exports = {
     "project": "tsconfig.json",
   },
   "rules": {
+    /*
+      The general strategy here is to amend rules which are still relevant in TypeScript-land,
+      and turn off rules which are redundant under @typescript-eslint, so the dev is not
+      bombarded with multiple of the same warning/error. Note that not all eslint rules
+      are redundant as @typescript-eslint does not cover 100% of the same ruleset:
+      https://github.com/typescript-eslint/typescript-eslint#can-i-use-all-of-the-existing-eslint-plugins-and-rules-without-any-changes
+    */
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        ...airbnbImportExtensions,
+        "ts": "never",
+        "tsx": "never",
+      },
+    ],
+    "no-unused-vars": "off",
+    "no-use-before-define": "off", // Workaround for false positive; handled by @typescript-eslint/no-use-before-define
     "@typescript-eslint/no-console": "off",
     "@typescript-eslint/no-param-reassign": "off",
     "@typescript-eslint/quotes": "off",
@@ -16,5 +36,10 @@ module.exports = {
     "@typescript-eslint/no-plusplus": "off",
     "@typescript-eslint/no-lonely-if": "off",
     "@typescript-eslint/max-len": "off",
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {},
+    },
   },
 };

@@ -32,6 +32,7 @@ yarn add -D \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
+  eslint-import-resolver-typescript \
   eslint-plugin-import \
   typedoc \
   typescript
@@ -51,6 +52,7 @@ yarn add -D \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
+  eslint-import-resolver-typescript \
   eslint-plugin-import \
   eslint-plugin-jsx-a11y \
   eslint-plugin-react \
@@ -73,6 +75,7 @@ yarn add -D \
   eslint-config-airbnb-typescript \
   eslint-config-hughx \
   eslint-config-hughx-ts \
+  eslint-import-resolver-typescript \
   eslint-plugin-import \
   typedoc \
   typescript
