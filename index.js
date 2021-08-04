@@ -1,4 +1,7 @@
-module.exports = {
+const eslintConfigAirbnbTypeScript = require( 'eslint-config-airbnb-typescript/lib/shared' );
+
+const namingConventionOptions = eslintConfigAirbnbTypeScript.rules['@typescript-eslint/naming-convention'];
+const config = {
   "extends": [
     "airbnb-typescript/base",
     "hughx/base",
@@ -25,6 +28,22 @@ module.exports = {
     "@typescript-eslint/no-plusplus": "off",
     "@typescript-eslint/no-lonely-if": "off",
     "@typescript-eslint/max-len": "off",
+    "@typescript-eslint/naming-convention": [
+      ...namingConventionOptions.map( ( option ) => {
+        if (
+          ( typeof option !== 'string' )
+          && ( 'selector' in option )
+          && ( option.selector === 'variable' )
+        ) {
+          return {
+            ...option,
+            "leadingUnderscore": "allow",
+          };
+        }
+
+        return option;
+      } ),
+    ],
   },
   "settings": {
     "import/resolver": {
@@ -32,3 +51,5 @@ module.exports = {
     },
   },
 };
+
+module.exports = config;
