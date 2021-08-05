@@ -33,7 +33,10 @@ const config = {
         if (
           ( typeof option !== 'string' )
           && ( 'selector' in option )
-          && ( option.selector === 'variable' )
+          && (
+            ( option.selector === 'variable' )
+            || ( option.selector === 'function' )
+          )
         ) {
           return {
             ...option,
