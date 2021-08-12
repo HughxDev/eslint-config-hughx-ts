@@ -7,8 +7,8 @@ const config = {
     "hughx/base",
   ],
   "parserOptions": {
-    "tsconfigRootDir": __dirname,
-    "project": "./tsconfig.json",
+    "tsconfigRootDir": process.cwd(),
+    "project": "tsconfig.json",
   },
   "rules": {
     /*
