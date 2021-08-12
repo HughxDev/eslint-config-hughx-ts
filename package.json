@@ -68,8 +68,7 @@
   "scripts": {
     "minify": "./node_modules/.bin/npm-minify",
     "patch": "yarn version --patch && yarn minify",
-    "release": "cd dist/ && npm publish",
-    "patch-release": "yarn patch && yarn release"
+    "release": "cd dist/ && npm publish"
   },
   "keywords": [
     "check",
