@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hughx-ts",
   "description": "Provides hughx’s TypeScript conventions as .eslintrc shared configs.",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "index.ts",
   "author": "Hugh Guiney",
   "license": "BlueOak-1.0.0",
@@ -18,7 +18,7 @@
     "eslint": ">= 7.30.0",
     "eslint-config-airbnb-base": ">= 14.2.1",
     "eslint-config-airbnb-typescript": ">= 12.3.1",
-    "eslint-config-hughx": ">= 0.0.7",
+    "eslint-config-hughx": ">= 0.0.14",
     "eslint-import-resolver-typescript": ">= 2.4.0",
     "eslint-plugin-import": ">= 2.23.4",
     "eslint-plugin-jsx-a11y": ">= 6.4.1",
